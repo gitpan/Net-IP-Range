@@ -1,0 +1,23 @@
+---
+abstract: 'IP network/range routines'
+author:
+  - 'Evgeniy Kosov <evgeniy@kosov.su>'
+build_requires:
+  ExtUtils::CBuilder: 0
+  Test::Exception: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-IP-Range
+provides:
+  Net::IP::Range:
+    file: lib/Net/IP/Range.pm
+    version: 0.01
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
